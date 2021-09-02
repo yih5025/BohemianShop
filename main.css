@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    min-width: 1260px;
+    min-height: 1280px;
+    background: linear-gradient(to bottom, #9029a0, #f6b610);
+
+}
+.wrapper{
+    /* border: solid 2px black; */
+    width: 1320px;
+    min-height: 1280px;
+    margin-left: 90px;
+    margin-right: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+
+}
+.sign{
+    /* border: solid 2px red; */
+    text-align: center;
+    font-size: 28px;
+    color: #f6b610;
+    font-family: Garamond, serif;
+}
+.sign h1{
+    padding-top: 28px;
+    margin-top: 0;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+}
+.leftNav{
+    /* border: solid 2px yellow; */
+    flex-grow: 8;
+}
+.leftNav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: space-around;
+}
+.leftNav ul li a{
+    font-size: 77px;
+    text-decoration: none;
+    color: #f6b610;
+}
+.rightNav{
+    /* border: solid 2px blue; */
+    flex-grow: 2;
+}
+.rightNav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: flex-end;
+}
+.rightNav ul li a{
+    font-size: 40px;
+    text-decoration: none;
+    color: #f6b610;
+}
+.container{
+    /* border: solid 2px green; */
+}
+.content1{
+    /* border: solid 2px purple; */
+}
+.content1 .width_column{
+    column-count: 3;
+}
+.content1 h2{
+    text-align: center;
+    font-size: 32px;
+    color: #f6b610;
+    font-family: Garamond, serif;
+}
+.content1 ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.content1 ul li{
+    padding-right: 16px;
+}
+.content1 ul .case5{
+    padding-left: 32px;
+}
+.content1 ul li .box{
+    /* border: solid 2px gold; */
+    border-radius: 20px;
+    display: inline-block;
+    width: 400px;
+    min-height: 500px;
+    text-align: center;
+    padding: 60px 10px 30px 10px;
+    box-shadow: 2px 4px 12px;
+}
+.content1 ul li img{
+    text-decoration: none;
+    width: 330px;
+    border-radius: 12px;
+}
+.content1 ul li .box .name{
+    color: gold;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.content1 ul li .box .price{
+    color: gold;
+}
+.content1 ul li .case7{
+    padding-right: 0;
+}
+.content2{
+    /* border: solid 2px orange; */
+}
+.content3{
+    /* border: solid 2px pink; */
+}
+footer{
+}
